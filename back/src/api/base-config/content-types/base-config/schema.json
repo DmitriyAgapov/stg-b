@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "base_configs",
+  "info": {
+    "singularName": "base-config",
+    "pluralName": "base-configs",
+    "displayName": "baseConfig"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CompanyName": {
+      "type": "string"
+    }
+  }
+}

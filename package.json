@@ -1,0 +1,20 @@
+{
+  "name": "stg_group",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DmitriyAgapov/stg_group.git",
+  "author": "DmitriyAgapov <prweb2012@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "front": "yarn dev --prefix ../front/",
+    "back": "yarn dev --prefix ../back/",
+    "clear": "cd front && rm -rf .next && rm -rf cache",
+    "setup:front": "cd front && yarn",
+    "setup:back": "cd back && yarn",
+    "setup": "yarn install && yarn setup:front && yarn setup:back",
+    "dev": "concurrently \"cd front && yarn dev\" \"cd back && yarn develop\""
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

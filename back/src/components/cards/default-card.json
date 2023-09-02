@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_cards_default_cards",
+  "info": {
+    "displayName": "defaultCard"
+  },
+  "options": {},
+  "attributes": {
+    "BaseFields": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fields.title"
+    }
+  }
+}
