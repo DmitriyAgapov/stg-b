@@ -13,9 +13,7 @@ module.exports = ({ env }) => ({
 			defaultLimit: 100,
 			amountLimit: 100,
 			maxLimit: 150,
-
 			apolloServer: {
-
 				tracing: false,
 			},
 		},
