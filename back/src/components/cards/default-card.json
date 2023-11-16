@@ -1,14 +1,27 @@
 {
   "collectionName": "components_cards_default_cards",
   "info": {
-    "displayName": "defaultCard"
+    "displayName": "defaultCard",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "BaseFields": {
-      "type": "component",
-      "repeatable": false,
-      "component": "fields.title"
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

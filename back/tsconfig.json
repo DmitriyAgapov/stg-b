@@ -3,12 +3,10 @@
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": ".",
-    "allowJs": true //enables the build without .ts files
+    "allowJs": true,
+
   },
-  "include": [
-    "./",
-    "src/**/*.json"
-  ],
+  "include": ["./", "src/**/*.json"],
   "exclude": [
     "node_modules/",
     "build/",
@@ -16,7 +14,8 @@
     ".cache/",
     ".tmp/",
     "src/admin/",
-    "**/*.test.*",
-    "src/plugins/**"
+    "**/*.test.ts",
+    "src/plugins/**",
+    "types/generated/**"
   ]
 }
