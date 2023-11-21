@@ -12,7 +12,11 @@ module.exports = ({ env }) => ({
 				},
 				serie: {
 					field: "slug",
-					references: "title"
+					references: "title",
+				},
+				faq: {
+					field: "slug",
+					references: "title",
 				}
 			},
 
@@ -29,7 +33,18 @@ module.exports = ({ env }) => ({
 	seo: {
 		enabled: true,
 	},
-
+	upload: {
+		config: {
+			breakpoints: {
+				xlarge: 1920,
+				large: 1000,
+				medium: 750,
+				small: 500,
+				xsmall: 64,
+				thumbnail: 140
+			},
+		},
+	},
 	graphql: {
 		enabled: true,
 		config: {
