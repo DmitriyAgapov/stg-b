@@ -91,22 +91,18 @@
       },
       "component": "links.link"
     },
+    "sections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::section.section"
+    },
     "slug": {
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "type": "customField",
-      "options": {
-        "pattern": "title"
-      },
-      "customField": "plugin::slug.slug"
-    },
-    "sections": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::section.section"
+      "type": "string"
     }
   }
 }

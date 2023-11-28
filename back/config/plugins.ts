@@ -17,7 +17,30 @@ module.exports = ({ env }) => ({
 				faq: {
 					field: "slug",
 					references: "title",
-				}
+				},
+				"post-category": {
+					field: "slug",
+					references: "title",
+				},
+				"faq-category": {
+					field: "slug",
+					references: "title",
+				},
+				"product-category": {
+					field: "slug",
+					references: "title",
+				},
+				post: {
+					field: "slug",
+					references: "title",
+				},
+				product: {
+					field: "slug",
+					references: "title",
+				},
+
+
+
 			},
 
 		},
