@@ -1,6 +1,4 @@
-import path from "path";
-
-module.exports = ({ env }) => ({
+export default ({ env }) => ({
 	'navigation': { enabled: true },
 	slugify: {
 		enabled: true,
@@ -47,7 +45,7 @@ module.exports = ({ env }) => ({
 	},
 	editorjs: {
 		enabled: true,
-		resolve: path.resolve('./src/plugins/strapi-plugin-react-editorjs')
+		// resolve: path.resolve('./src/plugins/strapi-plugin-react-editorjs')
 	},
 	'color-picker': {
 		enabled: true
