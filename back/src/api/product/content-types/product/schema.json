@@ -132,6 +132,16 @@
         }
       },
       "type": "string"
+    },
+    "Layers": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "fields.technology"
     }
   }
 }
