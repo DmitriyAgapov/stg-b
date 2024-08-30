@@ -142,6 +142,17 @@
         }
       },
       "component": "fields.technology"
+    },
+    "Features": {
+      "displayName": "Features",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "fields.features"
     }
   }
 }
